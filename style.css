@@ -5,9 +5,13 @@
 }
 h1 {
     font-size: 40px;
-    display: inline-block;
-    text-align: center;
-    margin-left: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -16,7 +20,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 30px; !important
     margin: 5px;
 }
 
@@ -25,7 +29,6 @@ ul {
     text-decoration: none;
     padding: 1px;
     margin-bottom: 15px;
-
 }
 
 ul li {
@@ -34,13 +37,27 @@ ul li {
     text-decoration: none;
     margin: 15px;
     color: white;
-
 }
-
-main 
 
 .navcabecalho {
     font-size: 28px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.banana {
+    border: solid black 3px;
+    display: inline-block;
+}
+
+.maca {
+    border: solid black 3px;
+    display: inline-block;
 }
 
 .fixarRodape {
@@ -60,29 +77,6 @@ footer {
     color: white;
     height: 100%;
 }
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.product {
-    border: 1px solid #ddd;
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.product img {
-    max-width: 100%;
-    height: auto;
-}
-.product h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-im
-
 
 
 
