@@ -20,20 +20,34 @@ ul li {
     color: white;
 
 }
-.navcabecalho {
-    font-size: 28px;
+
+h1 {
+    font-size: 40px;
 }
 
-.fixarRodape {
-    margin: 0;
-    bottom: 0;
-    position: fixed;
-    text-align: center;
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
 }
+
+.cadastro {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
 footer {
     background: black;
     width: 100%;
     font-size: 20px;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+
+    
 }
 
 .footp {
@@ -41,4 +55,3 @@ footer {
     color: white;
     height: 100%;
 }
-
